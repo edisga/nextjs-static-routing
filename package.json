@@ -8,12 +8,11 @@
     "start": "next start -p 8080",
     "export": "next export",
     "use-serve":"serve out",
-    "use-pm2":"pm2 serve out --no-daemon --spa"
+    "use-pm2":"pm2 serve out --no-daemon"
   },
   "dependencies": {
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "serve": "^13.0.2"
+    "react-dom": "16.13.1"
   }
 }

@@ -5,18 +5,29 @@ export default function About() {
   return (
     <div className="container">
       <Head>
-        <title>About</title>
+        <title>About Page</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <p>About Main</p>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
+        <h1>About</h1>
+        <hr/>
+        <ul>
+          <li>
+            <Link href="/">
+              <a>Go back Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/admin">
+              <a>Admin</a>
+            </Link>
+          </li>
+        </ul>
       </main>
 
       <footer>
-        <p>About Footer</p>
+        <hr/>
       </footer>
 
     </div>

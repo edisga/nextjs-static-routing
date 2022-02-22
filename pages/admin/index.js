@@ -1,26 +1,26 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Admin() {
   return (
     <div className="container">
       <Head>
-        <title>Home Page</title>
+        <title>Admin Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>Home</h1>
+        <h1>Admin Page</h1>
         <hr/>
         <ul>
           <li>
-            <Link href="/about">
-              <a>About</a>
+            <Link href="/">
+              <a>Go back Home</a>
             </Link>
           </li>
           <li>
-            <Link href="/admin">
-              <a>Admin</a>
+            <Link href="/about">
+              <a>About</a>
             </Link>
           </li>
         </ul>
